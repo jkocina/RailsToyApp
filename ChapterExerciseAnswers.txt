@@ -1,0 +1,12 @@
+
+Write out the analogous steps for visiting /users/1/edit
+  1. browser send request to route.db
+  2. routes.db directs the request to the user controller
+  3. the edit action gets called
+  4. the edit action returns the edit view
+
+Find the line in the scaffolding cold the retrieves the user from the database in the previous exercise
+  ~ User.all
+
+What is the name of the view file for the user edit page?
+  ~ edit.html.erb
