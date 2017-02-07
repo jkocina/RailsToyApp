@@ -10,3 +10,15 @@ Find the line in the scaffolding cold the retrieves the user from the database i
 
 What is the name of the view file for the user edit page?
   ~ edit.html.erb
+
+Determine the CSS id for the text "Micropost was successfully created."
+  
+  ~ the CSS id is called #notice.
+   
+  When we refresh
+
+  ~ The text disappears and the p#notice remains
+
+Determine the CSS id of the error message
+  ~ div#error_explanation
+  ~  
